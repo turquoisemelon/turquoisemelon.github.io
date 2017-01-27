@@ -1,0 +1,372 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainHeader img.logo {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.mainHeader p {
+    font-family: fantasy;
+    font-size: 17px;
+    margin-left: 800px;
+}
+
+.mainHeader img.menu {
+    height: 15px;
+    width: 25px;
+    margin-top: 20px;
+}
+
+.headImage {
+    position: relative;
+    width: 100%;
+}
+
+/*the big image on the top*/
+.headImage img {
+    position: absolute;
+    width: 100%;
+}
+
+.headText {
+    display: flex;
+}
+
+.headText h1 {
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 250px;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.headText span {
+    font-weight: lighter;
+    font-size: 30px;
+    background-color: #99ffcc;
+    padding: 5px 5px 5px 5px;
+    color: #334d4d;
+    margin-left: 10px;
+}
+
+.headText h2 {
+    font-size: 18px;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 95px;
+    letter-spacing: 2px;
+}
+
+.second {
+    display: flex;
+    margin-top: 520px;
+}
+
+.second img.history {
+    margin-top: 100px;
+    width: 70%;
+    height: 70%;
+}
+
+.secondText h1 {
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-bottom: 3px;
+    letter-spacing: 3px;
+}
+
+.secondText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.secondText img.line {
+    width: 8%;
+}
+
+.secondText h2 {
+    font-family: fantasy;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-right: 90px;
+    line-height: 2em;
+}
+
+.secondText p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.7em;
+    margin-right: 100px;
+    font-size: 13px;
+    line-height: 2em;
+}
+
+.third h1 {
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 3px;
+    letter-spacing: 3px;
+}
+
+.third img {
+    width: 4%;
+}
+
+.third p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.fourth {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.fourth.plan {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brand {
+    display:  flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.brand h2 {
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.brand p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 2em;
+}
+
+.brand img:nth-child(1) {
+    width: 10%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.brand img:nth-child(2) {
+    width: 11%;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.plan img:nth-child(1) {
+    width: 10%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.plan img:nth-child(2) {
+    width: 12%;
+}
+
+.plan h2 {
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.plan p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 2em;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration img:nth-child(1) {
+    width: 8%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.illustration img:nth-child(2) {
+    width: 9%;
+}
+.illustration h2 {
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.illustration p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 2em;
+}
+
+.fifth h1 {
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+}
+
+/*.fifth img {
+    width: 3%;
+}*/
+
+.fifth p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+
+nav img {
+    height: 15px;
+    width: 25px;
+    margin-right: 25px;
+    padding: 0;
+    margin-top: 12px;
+    background-color: #99ffcc;
+    padding: 10px;
+}
+
+nav.clearfix {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+
+nav.clearfix ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;  /*Removes the bullets. A navigation bar does not need list markers*/
+    margin: 0;  /*to remove browser default settings*/
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li {
+    display: flex;
+    letter-spacing: 2px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*i a:hover:not(.active) {
+    background-color: #99ffcc;
+}*/
+
+li a:hover {
+    background-color: #99ffcc;
+}
+
+.images img {
+    width: 330px;
+    height: 350px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.secondRow{
+    display: flex;
+}
+
+.thirdRow{
+    display: flex;
+}
+
+.subscribe {
+    display: flex;
+    margin-top: 150px;
+}
+
+.left {
+    display: flex;
+    background-color:#99ffcc; 
+    padding-top: 90px;
+    width: 510px;
+    height: 210px;
+}
+
+.left h1{
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #334d4d;
+    margin-left: 50px;
+    margin-top: 25px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+.left span {
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+}
+
+.clock img {
+    width: 510px;
+    height: 300px;
+}
+
+#clock {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+/*adding responsivity*/
+
+.container {
+  margin: auto;
+  max-width: 992px;
+}

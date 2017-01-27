@@ -1,0 +1,274 @@
+header.mainHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+header.mainHeader.img {
+    height: 300px;
+}
+
+header.mainHeader img:nth-child(1) {
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+header.mainHeader p:nth-child(2) {
+    font-family: fantasy;
+    font-size: 17px;
+    margin-left: 590px;
+}
+
+header.mainHeader img:nth-child(3) {
+    height: 15px;
+    width: 30px;
+    margin-top: 21px;
+    margin-right: 40px;
+}
+
+.headimage img:nth-child(1) {
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.headimage h1:nth-child(2) {font-family: fantasy;font-weight: bolder;position: absolute;top: 250px;left: 120px;}
+
+.headimage span {
+    font-weight: lighter;
+    background-color: #99ffcc;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+    color: #334d4d;
+}
+
+.headimage h2:nth-child(3) {
+    font-size: 18px;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: lighter;
+    position: absolute;
+    top: 325px;
+    left: 128px;
+}
+
+h1 h2 {position: absolute;float: left;margin-bottom: 900px;}
+
+.second {
+}
+
+.secondText img.line:nth-child(2) {
+    margin-left: 40px;
+    height: %;
+    width: 8%;
+}
+
+.second img:nth-child(7) {margin-top: 100px;}
+
+.second h1 {
+    font-family: fantasy;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 150px;
+    margin-bottom: 3px;
+}
+
+.second {
+    display: flex;
+}
+
+.second img.history:nth-child(2) {
+    margin-top: 100px;
+    margin-right: 40px;
+    width: 35%;
+    height: 60%;
+}
+
+.secondText img:nth-child(2) {
+    width: 1%;
+}
+
+.secondText {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondText h2 {
+    font-family: fantasy;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.secondText p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 40px;
+    line-height: 1.7em;
+    margin-right: 70px;
+    font-size: 12px;
+}
+
+.third h1 {
+    font-family: fantasy;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 3px;
+}
+
+.third img.line {
+    margin-left: 40px;
+}
+
+.third p {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.fourth {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.brand {
+    display:  flex;
+    flex-direction: column;
+    padding-right: 25px;
+    /* justify-content: space-between; */
+}
+
+.brand img.line {}
+
+.fourth.plan {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brand img.pencils {
+    width: 10%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.brand img.line {
+    width: 13%;
+    height: 0.4%;
+}
+
+.paln img.line {
+    width: 10%;
+    height: 10%;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-right: 25px;
+}
+
+.plan img.globe {
+    width: 10%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.plan img.line {
+    width: 13%;
+    height: 0.4%;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.illustration img.brush {
+    width: 10%;
+    height: 13%;
+    margin-bottom: 10px;
+}
+
+.illustration img.line {
+    width: 13%;
+    height: 0.4%;
+}
+
+.brand h2 {
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-left: 40px; */
+    margin-top: px;
+    /* margin-bottom: 3px; */
+}
+
+.brand p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: px;
+}
+
+.plan h2 {
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.plan p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.illustration p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.illustration h2 {
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fifth h1 {
+    font-family: fantasy;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 3px;
+}
+
+.fifth img.line {
+    margin-left: 40px;
+}
+
+.fifth p {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
