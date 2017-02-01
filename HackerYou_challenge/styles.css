@@ -261,7 +261,7 @@ nav img {
     width: 25px;
     margin-right: 25px;
     padding: 0;
-    margin-top: 12px;
+    margin-top: 5px;
     background-color: #99ffcc;
     padding: 10px;
 }
@@ -307,9 +307,14 @@ li a:hover {
     background-color: #99ffcc;
 }
 
+#all {
+    color: #99ffcc;
+}
+
 .images img {
-    width: 330px;
-    height: 350px;
+    width: 310px;
+    height: 330px;
+    padding: 10px 10px 10px 10px;
 }
 
 .firstRow {
@@ -324,6 +329,26 @@ li a:hover {
     display: flex;
 }
 
+#overlap {
+    width: 310px;
+    height: 330px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#firstImage {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+#turquoise {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
 .subscribe {
     display: flex;
     margin-top: 150px;
@@ -331,7 +356,7 @@ li a:hover {
 
 .left {
     display: flex;
-    background-color:#99ffcc; 
+    background-color:#99ffcc;
     padding-top: 90px;
     width: 510px;
     height: 210px;
@@ -357,13 +382,64 @@ li a:hover {
 .clock img {
     width: 510px;
     height: 300px;
+    position: absolute;
 }
 
-#clock {
-    display: flex;
-    width: 60px;
-    height: 60px;
+.box {
+     background-color: white;
+     width: 400px;
+     height: 180px;
+     position: relative;
+     margin: 60px 55px 60px 55px;
 }
+
+input {
+    width: 320px;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: gray;
+    border-width: 0.5px;
+    position: absolute;
+    margin: 40px 0 0 40px;
+    font-weight: lighter;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    background-color: #99ffcc;
+    color: white;
+    font: bold 18px sans-serif;
+    letter-spacing: 3px;
+    border: 2px solid #99ffcc;
+    margin: 65px 0 0 110px;
+}
+
+/*Styling the Footer*/
+
+.last {
+    display: flex;
+    justify-content: space-around;
+}
+
+#theme {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+#theme h1 {
+    font-size: 16px;
+}
+
+#theme p {
+    font-size: 12px;
+}
+
 /*adding responsivity*/
 
 .container {
