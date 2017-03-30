@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang=en>
   <head>
-    <title>Meltem Kilic</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meltem Kilic</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/layout.css" type="text/css">
+    <link rel="stylesheet" href="styles/navbar.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <nav>
-
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <ul class="navbar-left">
+            <li>Home</li>
+          </ul>
+          <ul class="navbar-right">
+            <li>Contact</li>
+          </ul>
+          <ul class="navbar-right">
+            <li>Projects</li>
+          </ul>
+          <ul class="navbar-right">
+            <li>Home</li>
+          </ul>
+        </div>
       </nav>
-
     </header>
     <main>
     <section id="intro">
-      <img src="images/profile.jpg" alt="profile photo"/>
-      <h1>Meltem Kilic => Junior Web Developer / Engineer</h1>
-      <p>
-        Hi there! I'm Meltem. Before engaging in Web Development, I completed an extensive Engineering
-        education including Chemical Engineering / Materials Science double major Bachelor of Science
-        followed by an Engineering Master of Science degree. Along with my master's, I worked as a
-        research assistant and conducted a research project on the utilization of Carbon Materials in
-        Aluminum Production. I have currently rolled my sleeves up to learn basics of programming,
-        Front End and Back End Web Development. My favorite activity other than learning programming
-        is nerding out with other developers in tech meetups.
-      </p>
+      <div class="profile-image">
+        <img src="images/profile.jpg" class="img-responsive img-rounded" alt="profile photo"/>
+      </div>
+      <div class="intro-text">
+        <h1>Meltem Kilic => Junior Web Developer / Engineer</h1>
+        <p>
+          Hi there! I'm Meltem. Before engaging in Web Development, I completed an extensive Engineering
+          education including Chemical Engineering / Materials Science double major Bachelor of Science
+          followed by an Engineering Master of Science degree. Along with my master's, I worked as a
+          research assistant and conducted a research project on the utilization of Carbon Materials in
+          Aluminum Production. I have currently rolled my sleeves up to learn basics of programming,
+          Front End and Back End Web Development. My favorite activity other than learning programming
+          is nerding out with other developers in tech meetups.
+        </p>
+      </div>
     </section>
+
     <section id="projects">
       <h1>Projects</h1>
+      <div class="all-projects">
+        <div class="project-one">
+          <div class="project-profile">
+
+          </div>
+
+        </div>
+        <div class="project-two">
+
+        </div>
+        <div class="project-three">
+
+        </div>
+
+      </div>
     </section>
     <section id="contact">
+      <h1>Get in touch</h1>
 
     </section>
     </main>

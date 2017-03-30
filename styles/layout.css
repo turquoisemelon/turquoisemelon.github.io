@@ -22,7 +22,8 @@ body {
 }
 
 main {
-  width: 450px;
+  display: flex;
+  flex-direction: column;
   background-color: white;
   margin: auto;
   margin-top: 140px;

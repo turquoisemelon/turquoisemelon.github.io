@@ -1,0 +1,14 @@
+
+ul.navbar-left {
+  list-style: none;
+  margin-top: 12px;
+  color: rgb(35, 41, 211);
+  font-size: 1.5em;
+}
+
+ul.navbar-right {
+  list-style: none;
+  margin-top: 12px;
+  color: rgb(35, 41, 211);
+  font-size: 1.5em;
+}
