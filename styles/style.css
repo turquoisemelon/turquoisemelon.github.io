@@ -1,4 +1,51 @@
 #intro {
-  margin-top: -10px;
+  margin-top: 60px;
   display: flex;
+}
+
+.intro-text {
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 40px;
+  width: 500px;
+}
+
+.profile-image {
+  height: 400px;
+  width: 300px;
+  margin-left: 270px;
+}
+
+section .intro-text h1 {
+  font-size: 30px;
+  color: rgb(35, 41, 211);
+  font-weight: bold;
+}
+
+section .intro-text h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgb(35, 41, 211);
+  font-weight: bold;
+}
+
+section .intro-text h5 {
+  font-size: 23px;
+  color: rgb(35, 41, 211);
+}
+
+section .intro-text p {
+  font-size: 15px;
+  margin-top: 30px;
+  color: rgb(35, 41, 211);
+}
+
+footer {
+  color: rgb(35, 41, 211);
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  text-align: center;
+  border-top: 2px solid white
+  margin: 0;
+  height: 40px;
 }
