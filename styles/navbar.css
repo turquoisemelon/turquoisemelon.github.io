@@ -25,6 +25,11 @@ ul.navbar-right {
   font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-right a {
+  list-style: none;
+  color: rgb(35, 41, 211);
+}
+
 /*nav.navbar {
   background-color: rgb(231, 229, 249);
 }*/

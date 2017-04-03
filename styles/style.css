@@ -96,6 +96,7 @@ footer {
   border-top: 2px solid white;
   list-style: none;
   display: flex;
+  height: 40px;
 }
 
 footer p {
@@ -104,6 +105,7 @@ footer p {
   text-align: center;
   list-style: none;
   margin-left: 600px;
+  margin-top: 10px;
 }
 
 footer ul {
@@ -111,6 +113,7 @@ footer ul {
   justify-content: space-between;
   width: 150px;
   list-style: none;
+  margin-top: 10px;
 }
 
 footer i {
