@@ -30,6 +30,11 @@ ul.navbar-right {
   color: rgb(35, 41, 211);
 }
 
+.navbar-left a {
+  list-style: none;
+  color: rgb(35, 41, 211);
+}
+
 /*nav.navbar {
   background-color: rgb(231, 229, 249);
 }*/

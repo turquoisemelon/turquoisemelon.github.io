@@ -11,23 +11,29 @@
     <link rel="stylesheet" href="styles/navbar.css" type="text/css">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
   </head>
   <body>
     <header>
+      <div id="topbar">
+        <a href="https://turquoisemelon.github.io/">Back to Home</a>
+      </div>
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-          <ul class="navbar-left">
-            <a href="https://turquoisemelon.github.io/"><li>Meltem Kilic <span>Junior Web Developer/ Engineer</span></li></a>
-          </ul>
-          <ul class="navbar-right">
-            <li>Contact</li>
-          </ul>
-          <ul class="navbar-right">
-            <li>Projects</li>
-          </ul>
-          <ul class="navbar-right">
-            <a href="https://resume.creddle.io/resume/4gh6epiy74f" target="_blank"><li>Resume</li></a>
-          </ul>
+          <div id="#nav">
+            <ul class="navbar-left">
+              <li><a href="#topbar">Meltem Kilic <span>Junior Web Developer/ Engineer</span></a></li>
+            </ul>
+            <ul class="navbar-right">
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="navbar-right">
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+            <ul class="navbar-right">
+              <a href="https://resume.creddle.io/resume/4gh6epiy74f" target="_blank"><li>Resume</li></a>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -72,10 +78,24 @@
           <a href="https://github.com/turquoisemelon/tweeter-client" target="_blank"><img src="images/tweeterapp.jpg" alt="birds make simpson fly" /></a>
 
         </div>
-
+        <div id="contact">
+          <h1>Getting in touch</h1>
+          <p>
+            Curious about my work, wanna talk about tech, engineering stuff? Feel free to reach out.
+          </p>
+          <button type="button" name="button">Send an email</button>
+        </div>
       </div>
     </section>
     </main>
+    <script type="text/javascript">
+      $(function(){
+        $("#nav a").click(function(e){
+          e.preventDefault();
+          $('html,body').scrollTo(this.hash,this.hash);
+        });
+      });
+    </script>
     <footer class="footer navbar-fixed-bottom">
       <p>
         Meltem Kilic © 2017
