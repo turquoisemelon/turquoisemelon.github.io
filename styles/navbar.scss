@@ -1,0 +1,47 @@
+* {
+   box-sizing: border-box;
+ }
+
+nav {
+  .nav-wrapper {
+    .brand-logo {
+      list-style: none;
+      margin-top: 12px;
+      margin-left: 30px;
+      color: rgb(35, 41, 211);
+      font-size: 1.3em;
+      font-family: 'Open Sans', sans-serif;
+      span {
+        list-style: none;
+        margin-top: 12px;
+        margin-left: 10px;
+        color: rgb(35, 41, 211);
+        font-size: 0.6em;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+}
+
+// 
+// ul.navbar-right {
+//   list-style: none;
+//   margin-top: 12px;
+//   color: rgb(35, 41, 211);
+//   font-size: 1.3em;
+//   font-family: 'Open Sans', sans-serif;
+// }
+//
+// .navbar-right a {
+//   list-style: none;
+//   color: rgb(35, 41, 211);
+// }
+//
+// .navbar-left a {
+//   list-style: none;
+//   color: rgb(35, 41, 211);
+// }
+
+/*nav.navbar {
+  background-color: rgb(231, 229, 249);
+}*/

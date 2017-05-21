@@ -4,96 +4,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meltem Kilic</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"> -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="vendor/border-box.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/layout.css" type="text/css">
     <link rel="stylesheet" href="styles/navbar.css" type="text/css">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
+    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script> -->
+    <script type="text/javascript" src="vendor/jquery-3.0.0.js"></script>
   </head>
   <body>
-    <header>
-      <div id="topbar">
-        <a href="https://turquoisemelon.github.io/">Back to Home</a>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="https://turquoisemelon.github.io/" class="brand-logo">Meltem Kilic <span>Junior Web Developer/ Engineer</span></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down top-menu">
+          <li><a href="https://github.com/turquoisemelon" target="_blank">Projects</a></li>
+          <li><a href="https://resume.creddle.io/resume/4gh6epiy74f" target="_blank">Resume</a></li>
+          <li><a href="mailto:melltemkilic@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="https://github.com/turquoisemelon" target="_blank">Projects</a></li>
+          <li><a href="https://resume.creddle.io/resume/4gh6epiy74f" target="_blank">Resume</a></li>
+          <li><a href="mailto:melltemkilic@gmail.com" target="_blank">Contact</a></li>
+        </ul>
       </div>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div id="#nav">
-            <ul class="navbar-left">
-              <li><a href="#topbar">Meltem Kilic <span>Junior Web Developer/ Engineer</span></a></li>
-            </ul>
-            <ul class="navbar-right">
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <ul class="navbar-right">
-              <li><a href="#projects">Projects</a></li>
-            </ul>
-            <ul class="navbar-right">
-              <a href="https://resume.creddle.io/resume/4gh6epiy74f" target="_blank"><li>Resume</li></a>
-            </ul>
-          </div>
+    </nav>
+    <div class="container">
+      <div class="row intro">
+        <div class="col s6 intro-image">
+          <img src="images/profile.jpg" class="responsive-img" alt="profile photo"/>
         </div>
-      </nav>
-    </header>
-    <main>
-    <section id="intro">
-      <div class="profile-image">
-        <img src="images/profile.jpg" class="img-responsive img-rounded" alt="profile photo"/>
-      </div>
-      <div class="intro-text">
-        <h5>Hi there! I'm Meltem.</h5>
-        <p>
-          Before getting into the world of Web Development, I completed an extensive Engineering
-          education including a Chemical Engineering / Materials Science double major followed by an Engineering
-          M.Sc. degree. I worked as a research assistant and conducted a
-          research project with Canadian Aluminum industry.
-        </p>
-        <p>
-          Currently, I have rolled
-          my sleeves up to learn Javascript, jQuery, React, AJAX, Node.js, MongoDB, MySQL and everything about the Web.
-        </p>
-        <p>
-          My favorite activity other than programming is attending and socializing in Toronto tech events.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h1>Projects</h1>
-      <div class="all-projects">
-        <div class="project-one">
-          <div class="project-profile">
-            <a href="https://github.com/turquoisemelon/github-avatar-downloader" target="_blank"><img src="images/octobiwan.jpg" alt="github image" /></a>
-          </div>
-        </div>
-        <div class="project-two">
-          <a href="https://github.com/turquoisemelon/TinyApp" target="_blank"><img src="images/url-shortener-app.jpg" alt="scissors cutting paper" /></a>
-        </div>
-        <div class="project-three">
-          <a href="https://github.com/turquoisemelon/tweeter-client" target="_blank"><img src="images/tweeterapp.jpg" alt="birds make simpson fly" /></a>
+        <div class="col s6 intro-text">
+          <h5>Hi there! I'm Meltem.</h5>
+          <p>
+            Before getting into the world of Web Development, I completed an extensive Engineering
+            education including a Chemical Engineering / Materials Science double major followed by an Engineering
+            M.Sc. degree. I worked as a research assistant and conducted a
+            research project with Canadian Aluminum industry.
+          </p>
+          <p>
+            Currently, I have rolled
+            my sleeves up to learn Javascript, jQuery, React, AJAX, Node.js, MongoDB, MySQL and everything about the Web.
+          </p>
+          <p>
+            My favorite activity other than programming is attending and socializing in Toronto tech events.
+          </p>
         </div>
       </div>
-    </section>
-    <section>
-      <div id="contact">
-        <h1>Getting in touch</h1>
-        <p>
-          Curious about my work, wanna talk about tech, engineering stuff? Feel free to reach out.
-        </p>
-        <button type="button" name="button">Send an email</button>
-      </div>
-    </section>
-    </main>
-    <script type="text/javascript">
-      $(function(){
-        $("#nav a").click(function(e){
-          e.preventDefault();
-          $('html,body').scrollTo(this.hash,this.hash);
-        });
-      });
-    </script>
+    </div>
     <footer class="footer navbar-fixed-bottom">
       <p>
         Meltem Kilic © 2017
@@ -113,5 +77,12 @@
         </li>
       </ul>
     </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+    })
+    </script>
   </body>
 </html>
