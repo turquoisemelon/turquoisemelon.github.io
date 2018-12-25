@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
+import {Icon} from './icon'
 
 const StyledFooter = styled.div`
     display: flex;
