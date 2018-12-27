@@ -5,7 +5,11 @@ const StyledHeader = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
+
+  @media (min-width: 900px) {
+    padding: 0 1rem;
+  }
 `
 
 const StyledSpan = styled.span`
