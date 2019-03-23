@@ -6,23 +6,30 @@ const StyledAbout = styled.div`
     padding: 0 2rem;
 
     @media (min-width: 1200px) {
-        padding: 0 5rem;
+        grid-column: 2 / 3;
     }
 `
 
 const StyledHeading = styled.h1`
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #4e4e4e;
     text-align: center;
     margin: 3rem 0 2rem 0;
 
     @media (min-width: 1200px) {
         text-align: left;
+        font-size: 2rem;
     }
 `
 
 const StyledParagraph = styled.p`
     color: #847e7e;
+    margin-bottom: 1rem;
+    line-heigt: 2rem;
+
+    @media (min-width: 1200px) {
+        margin-bottom: 0;
+    }
 `
 
 const About = () => (

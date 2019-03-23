@@ -29,13 +29,14 @@ const Headshot = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 12rem;
-  height: 12rem;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
 
   @media (min-width: 900px) {
-    width: 20rem;
-    height: 20rem;
+    width: 24rem;
+    height: 24rem;
+    grid-column: 4 / 5;
   }
 `
 
@@ -45,8 +46,10 @@ const Wrapper = styled.div`
   align-items: center;
 
   @media (min-width: 900px) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 1fr 4fr 1.5fr;
   }
 `
 
@@ -54,8 +57,8 @@ const IndexPage = () => (
   < StyledIndexPage>
     <Header />
     <Wrapper>
-      <Headshot />
       <About />
+      <Headshot />
     </Wrapper>
     <Footer />
   </StyledIndexPage>
