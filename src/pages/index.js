@@ -1,16 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
-import headshot from '../images/headshot_2.jpg';
+import headshot from '../images/headshot.png';
 
 import About from '../components/about'
 import Header from '../components/header'
 import Footer from '../components/footer'
-// import {library} from '@fortawesome/fontawesome-svg-core'
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-// import {github} from '@fortawesome/free-solid-svg-icons'
-
-// library.add(github)
 
 const StyledIndexPage = styled.div`
   background-color: #fdfdff;
@@ -26,7 +21,7 @@ const StyledIndexPage = styled.div`
 `
 const HeadshotWrapper = styled.div`
   grid-area: photo;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
 
   @media (min-width: 900px) {
     grid-column: 4 / 5;
@@ -64,7 +59,7 @@ const MainContentWrapper = styled.div`
 `
 
 const IndexPage = () => (
-  < StyledIndexPage>
+  <StyledIndexPage>
     <Header />
     <MainContentWrapper>
       <About />
