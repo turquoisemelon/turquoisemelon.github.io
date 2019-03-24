@@ -1,29 +1,17 @@
 import React from "react"
 import styled from 'styled-components'
-import {Icon} from './icon'
 
 const StyledFooter = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 1.5rem 4rem;
-`
-
-const SocialMediaLinks = styled.ul`
-    display: flex;
-    list-style: none;
+    color: #7d7d7d
 `
 
 const Footer = () => (
     <StyledFooter>
-        <span>Find me on internet 👩🏻‍💻</span>
-        <SocialMediaLinks>
-            <li>
-                Linkedin
-            </li>
-            <li>
-                Github
-            </li>
-        </SocialMediaLinks>
+        <span>2019 &#169; Meltem Kilic 👩🏻‍💻</span>
     </StyledFooter>
 )
 
