@@ -34,15 +34,23 @@ const StyledParagraph = styled.p`
     }
 `
 
-const SocialMediaLinks = styled.ul `
+const SocialMediaLinksListItemsList = styled.ul `
     display: flex;
     list-style: none;
     padding-left: 0;
 `
 
-const SocialMediaLink = styled.li `
-    color: #4e4e4e;
+const SocialMediaLinksListItem = styled.li `
     margin-right: 1rem;
+`
+
+const SocialMediaLink = styled.a`
+    text-decoration :none;
+    color: #4e4e4e;
+
+    &:hover {
+        color: #847e7e;
+    }
 `
 
 const About = () => (
@@ -53,20 +61,28 @@ const About = () => (
             I fell in love with building software and decided to pursue a career as a software developer ever since. I'm passionate about supporting women in STEM, and mentor at Bridge School, where I support women, agender, and non-binary professionals in software development to skill up. 
             I'm a language nerd and I fluently speak 3 languages. In my spare time, you can find me exploring food and live music scene in Toronto.
         </StyledParagraph>
-        <SocialMediaLinks>
-            <SocialMediaLink>
-                <FaGithub />
-            </SocialMediaLink>
-            <SocialMediaLink>
-                <FaTwitter />
-            </SocialMediaLink>
-            <SocialMediaLink>
-                <FaLinkedin />
-            </SocialMediaLink>
-            <SocialMediaLink>
-                <FaEnvelope />
-            </SocialMediaLink>
-        </SocialMediaLinks>
+        <SocialMediaLinksListItemsList>
+            <SocialMediaLinksListItem>
+                <SocialMediaLink href="https://github.com/turquoisemelon" target="_blank">
+                    <FaGithub />
+                </SocialMediaLink>
+            </SocialMediaLinksListItem>
+            <SocialMediaLinksListItem>
+                <SocialMediaLink href="https://twitter.com/trilingualmel" target="_blank">
+                    <FaTwitter />
+                </SocialMediaLink>
+            </SocialMediaLinksListItem>
+            <SocialMediaLinksListItem>
+                <SocialMediaLink href="https://www.linkedin.com/in/meltem-kilic/" target="_blank">
+                    <FaLinkedin />
+                </SocialMediaLink>
+            </SocialMediaLinksListItem>
+            <SocialMediaLinksListItem>
+                <SocialMediaLink href="mailto:melltemkilic@gmail.com" target="_blank">
+                    <FaEnvelope />
+                </SocialMediaLink>
+            </SocialMediaLinksListItem>
+        </SocialMediaLinksListItemsList>
     </StyledAbout>
 )
 
