@@ -2,10 +2,9 @@ import React from "react"
 import styled from 'styled-components'
 
 const StyledAbout = styled.div`
-    max-width: 30rem;
-    padding: 0 2rem;
+    grid-area: text;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 900px) {
         grid-column: 2 / 3;
     }
 `
@@ -16,7 +15,7 @@ const StyledHeading = styled.h1`
     text-align: center;
     margin: 3rem 0 2rem 0;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 900px) {
         text-align: left;
         font-size: 2rem;
     }
@@ -25,18 +24,19 @@ const StyledHeading = styled.h1`
 const StyledParagraph = styled.p`
     color: #847e7e;
     margin-bottom: 1rem;
-    line-heigt: 2rem;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 900px) {
         margin-bottom: 0;
     }
 `
 
 const About = () => (
     <StyledAbout>
-        <StyledHeading>Hi, I’m Meltem. I'm a software developer and a mentor.</StyledHeading>
+        <StyledHeading>Hi 👋🏻 I’m Meltem. I'm a software developer and a mentor.</StyledHeading>
         <StyledParagraph>
-            I’m based in Toronto, Canada. I enjoy building digital products and tackling technical challenges. I'm currently working at Rangle.io, a Toronto-based digital transformation agency, where I help build web and mobile apps for clients from a wide range of industries. I mentor at Bridge School and Ladies Learning Code to help women level up in their digital careers.
+            I currently work at Rangle.io where I build a wide range of products from mobile and web applications to design systems. Although I have a background in Chemical Engineering,
+            I fell in love with building software and decided to pursue a career as a software developer ever since. I'm passionate about supporting women in STEM, and mentor at Bridge School, where I support women, agender, and non-binary professionals in software development to skill up. 
+            I'm a language nerd and I fluently speak 3 languages. In my spare time, you can find me exploring food and live music scene in Toronto.
         </StyledParagraph>
     </StyledAbout>
 )
