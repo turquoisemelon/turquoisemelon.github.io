@@ -59,7 +59,7 @@ const MainContentWrapper = styled.div`
 `
 
 const IndexPage = () => (
-  < StyledIndexPage>
+  <StyledIndexPage>
     <Header />
     <MainContentWrapper>
       <About />

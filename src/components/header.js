@@ -20,9 +20,9 @@ const StyledSpan = styled.span`
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
-    <StyledSpan>EN</StyledSpan>
+    {/* <StyledSpan>EN</StyledSpan>
     <StyledSpan>FR</StyledSpan>
-    <StyledSpan>TR</StyledSpan>
+    <StyledSpan>TR</StyledSpan> */}
   </StyledHeader>
 )
 
