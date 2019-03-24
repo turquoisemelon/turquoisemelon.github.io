@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
-import headshot from '../images/headshot_2.jpg';
+import headshot from '../images/headshot.png';
 
 import About from '../components/about'
 import Header from '../components/header'
