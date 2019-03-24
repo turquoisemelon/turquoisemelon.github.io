@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
-import headshot from '../images/headshot_uncut.jpg';
+import headshot from '../images/headshot_2.jpg';
 
 import About from '../components/about'
 import Header from '../components/header'
@@ -18,45 +18,60 @@ const StyledIndexPage = styled.div`
   font-family: arial, sans-serif;
   display: grid;
   grid-template-rows: 2fr 8fr 2fr;
+  padding: 0 2rem;
 
   @media (min-width: 900px) {
     grid-template-rows: 1fr 10fr 1fr;
   }
 `
+const HeadshotWrapper = styled.div`
+  grid-area: photo;
+  margin: 0 auto;
+
+  @media (min-width: 900px) {
+    grid-column: 4 / 5;
+  }
+`;
 
 const Headshot = styled.div`
   background-image: url(${headshot});
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 12rem;
-  height: 12rem;
+  background-position: 36%;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
 
   @media (min-width: 900px) {
-    width: 20rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
   }
 `
 
-const Wrapper = styled.div`
+const MainContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: grid;
+  grid-template-areas: "photo"
+  "text";
 
   @media (min-width: 900px) {
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    flex-direction: row;
+    grid-template-areas: "text photo";
+    grid-template-columns: 1fr 5fr 1rem 5fr 1fr;
   }
 `
 
 const IndexPage = () => (
   < StyledIndexPage>
     <Header />
-    <Wrapper>
-      <Headshot />
+    <MainContentWrapper>
       <About />
-    </Wrapper>
+      <HeadshotWrapper>
+        <Headshot />
+      </HeadshotWrapper>
+    </MainContentWrapper>
     <Footer />
   </StyledIndexPage>
 )
